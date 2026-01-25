@@ -4,19 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BUGATTI CENTODIECI</title>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=Exo+2:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
-      rel="stylesheet"
-    />
-
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -25,53 +18,54 @@
       <a href="#" class="nav-link left">MENU</a>
 
       <a href="#" class="nav-link center">
-        <img src="resources/centodieci-wordmark-flat.svg" alt="Centodieci" />
+        <img
+          class="nav-logo"
+          src="resources/centodieci-wordmark-flat.svg"
+          alt="Centodieci"
+        />
       </a>
 
       <a href="#" class="nav-link right">STORE</a>
     </nav>
 
-    <!-- HERO -->
     <section class="hero">
       <div class="overlay-gray"></div>
 
       <h1 class="ghost-logo">BUGATTI</h1>
-
-      <div class="overlay overlay-white"></div>
 
       <img
         src="resources/Bugatti-centodieci-car.png"
         alt="Bugatti Centodieci"
         class="car"
       />
-
-      <div class="overlay overlay-black"></div>
     </section>
 
-    <section class="stat-section">
-      <div class="stats">
-        <div class="stat glass">
-          <h2><span class="number">2.4</span> sec</h2>
-          <p>0-100 km/h</p>
+    <section class="controls-wrapper">
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-value">2.4 <span class="stat-unit">sec</span></div>
+          <span class="stat-label">0-100 km/h</span>
         </div>
-        <div class="stat glass">
-          <h2><span class="number">380</span> km/h</h2>
-          <p>Top Speed</p>
+        <div class="stat-card">
+          <div class="stat-value">380 <span class="stat-unit">km/h</span></div>
+          <span class="stat-label">Top Speed</span>
         </div>
-        <div class="stat glass">
-          <h2><span class="number">1600</span> PS</h2>
-          <p>Max Power</p>
+        <div class="stat-card">
+          <div class="stat-value">1600 <span class="stat-unit">PS</span></div>
+          <span class="stat-label">Max Power</span>
         </div>
-        <div class="stat glass">
-          <h2>W16 Quad Turbo</h2>
-          <p>Engine</p>
+        <div class="stat-card">
+          <div class="stat-value">
+            W16 <span class="stat-unit">Quad Turbo</span>
+          </div>
+          <span class="stat-label">Engine</span>
         </div>
       </div>
-      <div class="cta-sec">
-        <a href="#" class="cta explore">Explore Specification</a>
-        <a href="#" class="cta editon">Limited Edition</a>
+
+      <div class="btn-row">
+        <a href="#" class="btn btn-primary">Explore Specifications</a>
+        <a href="#" class="btn btn-secondary">Limited Edition</a>
       </div>
     </section>
-
   </body>
 </html>
