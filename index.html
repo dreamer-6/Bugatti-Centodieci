@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BUGATTI CENTODIECI</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=Exo+2:ital,wght@1,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugatti Centodieci | 110th Anniversary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/5f6a32d955.js"
@@ -19,136 +17,62 @@
 
   <body>
     <nav class="nav">
-      <a href="#" class="nav-link left">
-        <img src="resources/bars.svg" class="icon" alt="hamburger" />
-        MENU
+      <a href="#menu" class="nav-link">
+        <img src="resources/bars.svg" alt="menu icon" class="nav-icon">menu
+      </a>
+        <ul class="float">
+          <li><a href="#">Current Model</a></li>
+          <li><a href="#">Contempoey Models</a></li>
+          <li><a href="#">Classi Icons</a></li>
+        </ul>
+      <a href="#bugatti" class="nav-link logo">
+        <img src="resources/centodieci-wordmark-flat.svg" class="nav-logo" alt="centodieci logo">
       </a>
 
-      <a href="#" class="nav-link center">
-        <img
-          class="nav-logo"
-          src="resources/centodieci-wordmark-flat.svg"
-          alt="Centodieci"
-        />
-      </a>
-
-      <a href="#" class="nav-link right"
-        >STORE
-        <img src="resources/store.svg" class="icon" alt="shop" />
+      <a href="#menu" class="nav-link">
+        store<img src="resources/store.svg" alt="store icon" class="nav-icon">
       </a>
     </nav>
 
-    <section class="hero">
-      <div class="overlay-gray"></div>
+    <!--Hero Section-->
 
-      <h1 class="ghost-logo">BUGATTI</h1>
-
-      <img
-        src="resources/Bugatti-centodieci-car.png"
-        alt="Bugatti Centodieci"
-        class="car"
-      />
-    </section>
-
-    <section class="controls-wrapper">
-      <div class="stats-row">
+    <section class="hero-section">
+      
+      <div class="hero-image-sec">
+        <h1 class="ghost-text">bugatti</h1>
+      <div class="white-overlay"></div>
+      <div class="dark-overlay"></div>
+      <div class="hero-img-box">
+        <img src="resources/Bugatti.png" alt="bugatti centodieci" class="hero-car-image">
+        <div class="car-shadow"></div>
+      </div>
+      </div>
+    
+      <div class="stat-container glass">
         <div class="stat-card">
-          <div class="stat-value">2.4 <span class="stat-unit">sec</span></div>
-          <span class="stat-label">0-100 km/h</span>
+          <h2 class="stat-value">2.4 <span class="stat-unit">s</span></h2>
+          <p class="stat-label">0-100 km/h</p>
         </div>
+
         <div class="stat-card">
-          <div class="stat-value">380 <span class="stat-unit">km/h</span></div>
-          <span class="stat-label">Top Speed</span>
+          <h2 class="stat-value">380 <span class="stat-unit">km/h</span></h2>
+          <p class="stat-label">Top Speed</p>
         </div>
+
         <div class="stat-card">
-          <div class="stat-value">1600 <span class="stat-unit">PS</span></div>
-          <span class="stat-label">Max Power</span>
+          <h2 class="stat-value">1600 <span class="stat-unit">PS</span></h2>
+          <p class="stat-label">Max Power</p>
         </div>
+
         <div class="stat-card">
-          <div class="stat-value">
-            W16 <span class="stat-unit">Quad Turbo</span>
-          </div>
-          <span class="stat-label">Engine</span>
+          <h2 class="stat-value">W16 <span class="stat-unit"></span></h2>
+          <p class="stat-label">Quad Turbo Engine</p>
         </div>
-      </div>
-
-      <div class="btn-row">
-        <a href="#" class="btn btn-primary">Explore Specifications</a>
-        <a href="#" class="btn btn-secondary">Limited Edition</a>
-      </div>
-
-      <div class="tech-row">
-        <p class="tech-info">Design Philosophy | Engineering | Performance</p>
-      </div>
-    </section>
-    <section class="philosophy">
-      <div class="container">
-        <div class="philosophy-text">
-          <span class="sub-label">design Philosophy</span>
-          <h1 class="main-heading">a tribute to <br />the eb110</h1>
-          <p class="description">
-            The Centodieci is a tribute to Bugatti’s relentless pursuit of
-            perfection. Every line, intake, and surface is engineered with
-            intent, honoring the EB110 while redefining modern performance
-            through precision, balance, and restraint.
-          </p>
-          <a href="#" class="story-link"
-            >Discover the Heritage
-            <img class="arrow-icon" src="resources/arro.svg" alt=""
-          /></a>
-        </div>
-
-        <div class="philosophy-visual">
-          <img
-            src="resources/Centodieci-rearview.png"
-            alt=""
-            class="rear-view"
-          />
-          <h3 class="bg-watermark">110</h3>
-        </div>
-      </div>
-    </section>
-
-    <section class="engineering-sec">
-      <div class="eng-container">
-        <header class="eng-header">
-          <span class="eng-sub-label">engineering & perfomance</span>
-          <h2 class="eng-main-heading">the w16 powerhouse</h2>
-          <p class="eng-description">
-            At the heart of the Centodieci lies the iconic 7,993 cm³ W16 engine. 
-            With four turbochargers and two-stage intercooling, it delivers a relentless 
-            surge of power, defining the car's pursuit of perfection.
-          </p>
-        </header>
-        <div class="eng-visual">
-          <img src="resources/sketch.png" class="sketch" alt="">
-          <img src="resources/engine.png" alt="" class="center-engine">
-        </div>
-        <div class="eng-spec-grid">
-          <div class="eng-card glass">
-            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1.51 1H16a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>
-            <span class="eng-card-label">Config |</span>
-            <span class="eng-card-value">W16 Quad-Turbo</span>
-          </div>
-          
-          <div class="eng-card glass">
-        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        <span class="eng-card-label">Max Power |</span>
-        <span class="eng-card-value">1600 PS</span>
-      </div>
-
-      <div class="eng-card glass">
-        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
-        <span class="eng-card-label">Max Torque |</span>
-        <span class="eng-card-value">1600 NM</span>
-      </div>
-
-      <div class="eng-card glass">
-        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17.5" r="2.5"/><circle cx="18.5" cy="17.5" r="2.5"/><path d="M5.5 15V7m13 8V7M3 7h18"/></svg>
-        <span class="eng-card-label">Drive System |</span>
-        <span class="eng-card-value">Permanent AWD</span>
-      </div>
-        </div>
+      </div>  
+      
+      <div class="btn-row"> 
+        <a href="#" class="btn btn-primary">Explore Specifications</a> 
+        <a href="#" class="btn btn-secondary">Limited Edition</a> 
       </div>
     </section>
   </body>
