@@ -11,14 +11,14 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'impact';
+  font-family: "impact";
   src: url(fonts/impact.ttf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Halcom-Black';
+  font-family: "Halcom-Black";
   src: url(fonts/Halcom/Halcom-Regular-BF648a71453957a.otf);
 }
 * {
@@ -28,14 +28,14 @@
 }
 
 body {
-    width: 100%;
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(to bottom, #dfe3ee 0%, #fcfcfd 45%, #dce0e8 100%);
-    color: var(--obsidian-black);
-    overflow-x: hidden;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to bottom, #dfe3ee 0%, #fcfcfd 45%, #dce0e8 100%);
+  color: var(--obsidian-black);
+  overflow-x: hidden;
 }
 /*----NAVIGATION-----*/
-.nav{
+.nav {
   width: 100%;
   height: 76px;
   padding: 24px 56px;
@@ -45,7 +45,7 @@ body {
   position: relative;
   top: 0;
 }
-.nav-link{
+.nav-link {
   text-decoration: none;
   font-size: 18px;
   color: #0b0d10;
@@ -57,14 +57,14 @@ body {
   align-items: center;
   gap: 5px;
 }
-.nav-icon{
+.nav-icon {
   width: 25px;
 }
-.nav-logo{
+.nav-logo {
   width: 220px;
   height: 220px;
 }
-.float{
+.float {
   display: none;
   position: absolute;
   top: 0;
@@ -74,31 +74,27 @@ body {
   background-color: gray;
   list-style-type: none;
 }
-.float li{
+.float li {
   display: block;
   width: 100%;
   margin: 20px auto;
   padding: 10px 25px;
 }
-.float li a{
+.float li a {
   text-decoration: none;
   color: var(--obsidian-black);
 }
 
 /*---------Hero-section------------*/
 
-
-.hero-section{
+.hero-section {
   width: 100%;
   max-width: 1400px;
   height: 90vh;
   min-height: 768px;
+  padding: 50px 0;
   background: linear-gradient
-  (to bottom, 
-  #f6f6f6 0%,
-  #f1f1f1 55%,
-  #e9e9e9 75%,
-  #e3e3e3 100%);
+    (to bottom, #f6f6f6 0%, #f1f1f1 55%, #e9e9e9 75%, #e3e3e3 100%);
   position: relative;
   overflow: hidden;
 }
@@ -111,41 +107,38 @@ body {
   height: 200px;
   background: radial-gradient(
     ellipse at center,
-    rgba(0,0,0,0.08) 0%,
-    rgba(0,0,0,0.04) 40%,
-    rgba(0,0,0,0.02) 60%,
+    rgba(0, 0, 0, 0.08) 0%,
+    rgba(0, 0, 0, 0.04) 40%,
+    rgba(0, 0, 0, 0.02) 60%,
     transparent 70%
   );
   filter: blur(25px);
 }
-.ghost-text{
+.ghost-text {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   text-transform: uppercase;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 22vw;
   letter-spacing: 10px;
-  background: linear-gradient(to bottom,
-  #bac2d4 0%,
-  #c8cfd9 50%,
-  #ebebee 100%);
+  background: linear-gradient(to bottom, #bac2d4 0%, #c8cfd9 50%, #ebebee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   line-height: 1;
   white-space: nowrap;
 }
-.white-overlay{
+.white-overlay {
   width: 100%;
   height: 80px;
-  background-color:#f7f7f5;
+  background-color: #f7f7f5;
   filter: blur(35px);
   position: absolute;
   top: 40%;
 }
-.dark-overlay{
+.dark-overlay {
   width: 100%;
   height: 50%;
   background-color: #c8cfd9ad;
@@ -154,7 +147,7 @@ body {
   position: absolute;
   bottom: 0;
 }
-.hero-img-box{
+.hero-img-box {
   width: 85%;
   max-width: 1200px;
   height: auto;
@@ -163,11 +156,11 @@ body {
   bottom: 2%;
   z-index: 15;
 }
-.hero-car-image{
+.hero-car-image {
   width: 100%;
   z-index: 10;
 }
-.car-shadow{
+.car-shadow {
   width: 40%;
   height: 50px;
   background-color: #5b5a5a;
@@ -181,18 +174,18 @@ body {
 }
 /*-------stats-------------*/
 
-.stat-container{
+.stat-container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   bottom: 3%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   gap: 60px;
   z-index: 10;
 }
-.glass{
+.glass {
   min-width: 180px;
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(20px);
@@ -201,43 +194,43 @@ body {
   padding: 20px 30px;
   border-radius: 20px;
   text-align: center;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
 }
-.stat-card{
+.stat-card {
   min-width: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.stat-value{
-  font-family: 'Halcom-Black', sans-serif; 
-  font-size: 28px; 
-  color: #000; 
+.stat-value {
+  font-family: "Halcom-Black", sans-serif;
+  font-size: 28px;
+  color: #000;
   font-weight: 600;
 }
-.stat-unit{
+.stat-unit {
   font-size: 22px;
   font-weight: 100;
-  font-family: 'Halcom-Black', sans-serif;
+  font-family: "Halcom-Black", sans-serif;
 }
-.stat-label{ 
-  font-family: 'Halcom-Black', sans-serif; 
-  display: block; 
-  margin-top: 8px; 
-  font-size: 14px; 
-  color: #555; 
-  font-weight: 400; 
+.stat-label {
+  font-family: "Halcom-Black", sans-serif;
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  font-weight: 400;
 }
-.btn-row{
+.btn-row {
   display: flex;
   gap: 20px;
   position: absolute;
   bottom: -2%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.btn{
+.btn {
   padding: 14px 30px;
   border-radius: 8px;
   text-decoration: none;
@@ -247,13 +240,142 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.btn-primary{
+.btn-primary {
   background-color: var(--bugatti-blue);
   color: white;
   box-shadow: 0 10px 20px rgba(32, 64, 112, 0.3);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
-.btn-secondary{
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(32, 64, 112, 0.4);
+}
+.btn-secondary {
   background-color: rgba(255, 255, 255, 0.4);
   color: #555;
   border: 1px solid rgba(255, 255, 255, 0.6);
+  transition:
+    background 0.3s ease,
+    border 0.3s ease;
 }
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.55);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+/*---------Philosophy section---------*/
+
+.philosophy {
+  width: 100%;
+  min-height: 90vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+.philosophy .container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.philosophy-text {
+  flex: 1;
+  z-index: 5;
+}
+.sub-label {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #204070;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+}
+.main-heading {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: clamp(4rem, 6vw, 6rem);
+  line-height: 0.95;
+  color: #1a1a1ae6;
+  margin-bottom: 40px;
+}
+.description {
+  font-size: 18px;
+  color: #888;
+  line-height: 1.5;
+  max-width: 480px;
+  margin-bottom: 30px;
+}
+.story-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  transition: 0.3s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+.story-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: #000;
+  transition: width 0.3s ease;
+}
+
+.story-link:hover::after {
+  width: 34%;
+}
+
+.arrow-icon {
+  width: 16px;
+}
+.philosophy-visual {
+  flex: 1.2;
+  position: relative;
+}
+.rear-view {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05);
+}
+.bg-watermark {
+  position: absolute;
+  bottom: -80px;
+  right: -20px;
+  z-index: 10;
+  font-size: 12rem;
+  font-family: "Anton", sans-serif;
+  color: #99999942;
+  line-height: 1;
+}
+@media (max-width: 900px) {
+  .philosophy .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .main-heading {
+    font-size: 4rem;
+  }
+}
+
+/*--------engineering---------------*/
+
