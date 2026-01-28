@@ -445,7 +445,7 @@ body {
     font-size: 16px;
   }
   .bg-watermark{
-    font-size: 40vw;
+    font-size: 20vw;
   }
 }
 
@@ -665,7 +665,8 @@ body {
   }
 
   .thumb {
-    height: 100px;
+    height: 150px;
+    object-fit: cover;
   }
 }
 /*--------Exclusive section-----*/
