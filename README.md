@@ -2,7 +2,7 @@
 
 A modern, responsive landing page dedicated to the **Bugatti Centodieci**, a limited-edition hypercar paying homage to the legendary EB110. This project demonstrates high-end web design principles, including CSS animations, glassmorphism, and interactive JavaScript galleries.
 
-![Project Preview](resources/images/Bugatti.png) ## 🌟 Features
+![Project Preview](Bugatti-centodieci.png) ## 🌟 Features
 
 * **Responsive Design:** Fully fluid layout that adapts from desktop to mobile screens using CSS Grid and Flexbox.
 * **Interactive Gallery:** A custom JavaScript image switcher allowing users to explore different angles of the car.
